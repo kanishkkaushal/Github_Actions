@@ -11,7 +11,7 @@ def multiple_of_five_finder(arr):
             return True
     return False
 
-# def test_multi():
-#     assert multiple_of_five_finder([1,2,3,100,55,0]) == True
-#     assert multiple_of_five_finder([1,2,3,76,32]) == False
+def test_multi():
+    assert multiple_of_five_finder([1,2,3,100,55,0]) == True
+    assert multiple_of_five_finder([1,2,3,76,32]) == False
 
